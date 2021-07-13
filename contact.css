@@ -1,0 +1,79 @@
+/* Main */
+body {
+  font-size: 20px;
+}
+/* Header */
+header li {
+    list-style-type: none;
+    display: inline;
+    
+}
+header a {
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+}
+header a:hover {
+    color: grey;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Mono','Times New Roman';
+    background-color: white;
+    z-index: 1;
+}
+header h1 {
+    padding-left: 10%;
+    font-size: 1.5em;
+}
+header ul {
+ padding-right: 30px;
+}
+@media (max-width: 850px), handheld {
+    header {
+      flex-direction: column;
+      justify-items: center;
+    }
+  }
+/* Contact */
+#contact {
+    margin-top: 10%;
+    font-family: 'Montserrat','Times New Roman';
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.icon {
+    padding-top: 1%;
+    font-size: 2.5em;
+    padding-right: 5%;
+    transition: all .4s ease-in-out;
+}
+.icon:hover {
+    transform: scale(2);
+}
+#contact a{
+    color: black;
+    cursor: pointer;
+}
+@media (max-width: 850px) {
+    #contact {
+        margin-top: 15%;
+    }
+}
+/* Footer */
+footer {
+    margin-top: 22%;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Montserrat','Times New Roman';
+}

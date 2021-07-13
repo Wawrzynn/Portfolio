@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <h1>Jędrzej Kosakowski</h1>
+        <nav>
+            <ul>
+                <li><a href=#about>About Me</a></li>
+                <li><a href=#projects>Projects</a></li>
+                <li><a href=#skills>Skills</a></li>
+                <li><a href='technology.html'>Technology</a></li>
+                <li><a href='contact.html'>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id='about'>
+        <article>
+            <h2>About me</h2>
+            <p>Hi! I am Jędrzej and I love programming. I am from Poland and I study Automatics and Robotics on
+                Politechnika Poznańska.
+                Recently I started learning programming and I want to connect my future with it.<br><br> I love football
+                and NBA but also I like to party and play computer games. My plan is
+                to learn programming so I can write an application so I can launch it on WEB and as an application on
+                phones. In my free time I like to hang out with friends, play football or just
+                learn something new.<br><br> Fun fact you have been on this page for: <span id="minutes"></span>:<span
+                    id="seconds"></span>
+            </p>
+        </article>
+        <figure>
+            <img src="149264762_125319879400731_1723117612595225745_n.jpg" alt='My photo'>
+            <figcaption><i>Me in ASG glasses.</i></figcaption>
+        </figure>
+    </section>
+    <section id='projects'>
+        <h2>Projects</h2>
+        <ul>
+            <li><button onclick='showItem("one")'>First portfolio project</button></li>
+            <img id='one' src='1.png'>
+            <li><button onclick='showItem("two")'>Tea store project</button></li>
+            <img id='two' src='2.png'>
+            <li><button onclick='showItem("three")'>NBA Company project</button></li>
+            <img id='three' src='3.png'>
+            <li><button onclick='showItem("four")'>Foundation project</button></li>
+            <img id='four' src='4.png'>
+        </ul>
+    </section>
+    <section id='skills'>
+        <h2>Skills</h2>
+        <section>
+            <i class="fab fa-html5 icon"></i>
+            <i class="fab fa-css3-alt icon"></i>
+            <i class="fab fa-js icon"></i>
+            <i class="fab fa-git icon"></i>
+            <i class="fab fa-github icon"></i>
+            <i class="fab fa-chrome icon"></i>
+            <i class="fab fa-react icon"></i>
+            <i class="fab fa-stack-overflow icon"></i>
+            <i class="fas fa-terminal icon"></i>
+            <i class="fab fa-python icon"></i>
+            <i class="fab fa-java icon"></i>
+            <i class="fab fa-node icon"></i>
+        </section>
+        <footer>
+            <p>Made by Jędrzej Kosakowski in 2021</p>
+        </footer>
+</body>
+
+</html>

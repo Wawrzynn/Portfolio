@@ -1,0 +1,122 @@
+/* Main */
+body {
+  font-size: 20px;
+}
+/* Header */
+header li {
+    list-style-type: none;
+    display: inline;
+    
+}
+header a {
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+}
+header a:hover {
+    color: grey;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Mono','Times New Roman';
+    background-color: white;
+    z-index: 1;
+}
+header h1 {
+    padding-left: 10%;
+    font-size: 1.5em;
+}
+header ul {
+ padding-right: 30px;
+}
+/* About */
+#about {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+
+    font-family: 'Montserrat','Times New Roman';
+    
+}
+#about img {
+    max-width: 300px;
+    max-height: auto;
+    float: right;
+    border-radius: 10%;
+}
+#about article {
+    float: left;
+}
+#about figcaption {
+    display:inline-flex;
+    justify-items: center;
+}
+/* Projects */
+#projects {
+  margin-left: 10%;
+  font-family: 'Montserrat','Times New Roman';
+}
+#projects li:before { 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+#projects img {
+    max-width: 30%;
+    max-height: auto;
+    margin-top: 2%;
+}
+#one,#two,#three,#four {
+    display: none;
+}
+#projects button {
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat','Times New Roman';
+    border: none;
+    font-size: 1em;
+}
+
+/* Skills */
+#skills {
+    margin-top: 5%;
+    font-family: 'Montserrat','Times New Roman';
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 10%;
+
+}
+.icon {
+    font-size: 50px;
+    color: black;
+    padding-right: 2%;
+    transition: all .4s ease-in-out;
+}
+.icon:hover {
+    transform: scale(2);
+}
+/* Footer */
+footer {
+    margin-top: 10%;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
